@@ -24,7 +24,7 @@ function tweetParser(tweet) {
 	// Links available? Get the first swoo.sh link
 	for (var i = 0; i < tweetUrls.length; i++) {
 		var tweetUrlObject = tweetUrls[i];
-		if (!tweetUrlObject.expanded_url) {
+		if (!tweetUrls || !tweetUrlObject.expanded_url) {
 			return;
 		}
 		if (tweetUrlObject.expanded_url.indexOf("swoo.sh") == -1) {
