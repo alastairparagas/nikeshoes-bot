@@ -21,10 +21,12 @@ function tweetParser(tweet) {
 		return;
 	}
 	
+	console.log("Streaming data from Twitter inbound --->");
+	
 	// Links available? Get the first swoo.sh link
 	for (var i = 0; i < tweetUrls.length; i++) {
 		var tweetUrlObject = tweetUrls[i];
-		if (!tweetUrls || !tweetUrlObject.expanded_url) {
+		if (!tweetUrlObject || !tweetUrlObject.expanded_url) {
 			return;
 		}
 		if (tweetUrlObject.expanded_url.indexOf("swoo.sh") == -1) {
