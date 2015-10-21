@@ -23,7 +23,7 @@ var config = {
 	},
 	personsOrdering: [{
 		nikeStoreUsername: '',
-		nikeStoePassword: '',
+		nikeStorePassword: '',
 		shoeSize: '',
 		shoeQuantity: '',
 		cvv: ''
