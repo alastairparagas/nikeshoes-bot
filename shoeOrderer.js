@@ -105,7 +105,7 @@ function shoeOrderer(nikeStoreLink, somePerson) {
 					$('input[type="submit"][name="billSubmit"]').click();
 				});
 			});
-		}]);
+		}])
 		.wait(10000)
 		// Actually place the order
 		.then(function () {
