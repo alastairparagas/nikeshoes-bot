@@ -14,9 +14,9 @@ function tweetParser(tweet) {
 	
 	// No link? We can't do crap.
 	if (!tweet || !tweet.entities || !tweet.entities.urls) {
-		tweetUrls = tweet.entities.urls;
 		return;
 	}
+	tweetUrls = tweet.entities.urls;
 	if (tweetUrls.constructor != Array) {
 		return;
 	}
