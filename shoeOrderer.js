@@ -33,7 +33,9 @@ function shoeOrderer(nikeStoreLink, somePerson) {
 	});
 	
 	// Get correct shoe size
-	spookyBrowser.then(function () {
+	spookyBrowser.then([{
+		somePersonShoeQuantity: somePerson.shoeQuantity
+	}, function () {
 		// Get the skuAndSize value of shoe for the person's shoe size
 		var skuAndSize = this.evaluate(function () {
 			var skuAndSize;
@@ -50,9 +52,9 @@ function shoeOrderer(nikeStoreLink, somePerson) {
 		// Fill and submit form
 		this.fillSelectors('form.add-to-cart-form.nike-buying-tools', {
 			'select[name="skuAndSize"]': skuAndSize,
-			'select[name="qty"]': somePerson.shoeQuantity
+			'select[name="qty"]': somePersonShoeQuantity
 		});
-	}).thenClick('button#buyingtools-add-to-cart-button');
+	}]).thenClick('button#buyingtools-add-to-cart-button');
 	
 }
 
