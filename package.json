@@ -1,0 +1,17 @@
+{
+  "name": "nikeshoes-tracker",
+  "version": "1.0.0",
+  "description": "Trackers Nike's Twitter timeline and orders a shoe that fall under a specific keyword",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alastair Paragas <alastairparagas@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "jquery": "^2.1.4",
+    "spooky": "^0.2.5",
+    "twitter": "^1.2.5"
+  }
+}
