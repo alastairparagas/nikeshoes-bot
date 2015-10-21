@@ -36,7 +36,7 @@ function tweetParser(tweet) {
 	}
 	
 	config.personsOrdering.forEach(function (personOrdering) {
-		shoeOrderer(tweetUrlObject.expanded_url, personOrdering);
+		shoeOrderer(nikeStoreLink, personOrdering);
 	});
 	
 }
