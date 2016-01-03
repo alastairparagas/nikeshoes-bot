@@ -1,4 +1,5 @@
-# Nike Shoe/Sneaker AutoBuying Bot [![Dependency Status](https://www.versioneye.com/user/projects/5688baeeb214a6000a000d8a/badge.svg?style=flat)](https://www.versioneye.com/user/projects/5688baeeb214a6000a000d8a)
+# Nike Shoe/Sneaker AutoBuying Bot 
+[![Dependency Status](https://www.versioneye.com/user/projects/5688baeeb214a6000a000d8a/badge.svg?style=flat)](https://www.versioneye.com/user/projects/5688baeeb214a6000a000d8a)
 > Automatically buy a Nike Shoe/Sneaker that is expected to come out, given a Nike Store account.
 
 Tracks shoe/sneaker names on Nike's Twitter feeds and based on the tracked shoe/sneaker name, if a relevant tweet with the link to the store to buy that shoe/sneaker appears on Nike's Twitter accounts, the bot proceeds to automatically buy that shoe. 
