@@ -1,6 +1,8 @@
 "use strict";
 
 var config = {
+    // Consult the Twitter Developer Documentation to obtain your own 
+    // Twitter keys as required below.
 	Twitter: {
 		consumerKey: '',
 		consumerSecret: '',
@@ -22,13 +24,13 @@ var config = {
 		}
 	},
 	personsOrdering: [{
-		nikeStoreUsername: '',
-		nikeStorePassword: '',
-		shoeSize: '',
-		shoeQuantity: '',
-		cvv: ''
+		nikeStoreUsername: '', // Your Nike Store Username
+		nikeStorePassword: '', // Your Nike Store Password
+		shoeSize: '', // Consult Nike website for shoe size names
+		shoeQuantity: '', // # of shoes you want to buy
+		cvv: '' // Credit/Debit card cvv
 	}],
-	shoeNames: 'air mag,marty mcfly,back to the future'
+	shoeNames: '' // Comma-delimited list of shoe names
 };
 
 module.exports = exports = config;

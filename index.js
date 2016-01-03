@@ -16,6 +16,7 @@ var Twitter = require('twitter'),
 // Alastair's Twitter ID = 2990119742
 // Nike Store Twitter ID = 17351972
 // Nike Twitter ID = 415859364
+// To know your Twitter account ID, go to http://mytwitterid.com/
 
 var streamParams = {
 	follow: '17351972,415859364',

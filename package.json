@@ -9,7 +9,6 @@
   "author": "Alastair Paragas <alastairparagas@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.13.3",
     "jquery": "^2.1.4",
     "spooky": "^0.2.5",
     "twitter": "^1.2.5"
