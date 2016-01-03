@@ -1,7 +1,7 @@
 {
-  "name": "nikeshoes-tracker",
+  "name": "nikeshoes-bot",
   "version": "1.0.0",
-  "description": "Trackers Nike's Twitter timeline and orders a shoe that fall under a specific keyword",
+  "description": "Automatically buy a Nike Shoe/Sneaker that is expected to come out, given a Nike Store account.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
